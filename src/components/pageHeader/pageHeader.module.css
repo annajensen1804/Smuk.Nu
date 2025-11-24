@@ -1,0 +1,24 @@
+header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.headerInfo {
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    width: 100vw;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+h1 {
+    color: rgba(0, 0, 0, 1);
+}
+
+p {
+    padding: 20px 10px;
+}
