@@ -1,5 +1,6 @@
 import PageHeader from "../components/pageHeader/PageHeader";
 import Products from "../components/products/Products";
+import Reviews from "../components/reviews/Reviews";
 
 const Home = () => {
     return (
@@ -11,11 +12,12 @@ const Home = () => {
           button
         />
 
-        <Products
-         titleOne="UDVALGT" 
-         titleTwo="SKØNHED" 
-        />
+        <Products titleOne="UDVALGT" titleTwo="SKØNHED" />
 
+        <Reviews
+          titleOne="SKØNHEDER"
+          titleTwo="UDTALER"
+        />
       </section>
     );
 }

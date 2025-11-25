@@ -1,0 +1,25 @@
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.reviewImg {
+    border: 5px solid rgba(250, 150, 170, 1);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    align-self: center;
+    margin-bottom: -10px;
+}
+
+.reviewName {
+    font-weight: 800;
+}
+
+.reviewKunde {
+    margin-top: -50px;
+}
