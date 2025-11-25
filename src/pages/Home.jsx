@@ -1,3 +1,4 @@
+import Member from "../components/member/Member";
 import PageHeader from "../components/pageHeader/PageHeader";
 import Products from "../components/products/Products";
 import Reviews from "../components/reviews/Reviews";
@@ -18,6 +19,8 @@ const Home = () => {
           titleOne="SKØNHEDER"
           titleTwo="UDTALER"
         />
+
+        <Member />
       </section>
     );
 }
