@@ -1,0 +1,16 @@
+.footerContainer {
+    background-color: rgba(217, 217, 217, 1);
+    padding: 20px;
+}
+
+.SoMeIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.SoMeIcons svg {
+    font-size: 30px;
+    color: white;
+}
+
