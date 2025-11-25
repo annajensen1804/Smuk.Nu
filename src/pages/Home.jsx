@@ -1,4 +1,5 @@
 import PageHeader from "../components/pageHeader/PageHeader";
+import Products from "../components/products/Products";
 
 const Home = () => {
     return (
@@ -9,6 +10,12 @@ const Home = () => {
           text="Herunder har vi samlet spørgsmål og svar om sundhed."
           button
         />
+
+        <Products
+         titleOne="UDVALGT" 
+         titleTwo="SKØNHED" 
+        />
+
       </section>
     );
 }
