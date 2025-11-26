@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import styles from './products.module.css'
 import Product from '../product/Product';
 
-const Products = ({titleOne, titleTwo}) => {
+const ProductList = ({titleOne, titleTwo}) => {
 
     const [products, setProducts] = useState([])
 
@@ -34,4 +34,4 @@ const Products = ({titleOne, titleTwo}) => {
     );
 }
 
-export default Products
+export default ProductList

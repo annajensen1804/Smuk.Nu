@@ -1,0 +1,19 @@
+nav {
+    background-color: white;
+    height: 6vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.basketBurger {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 147px;
+    height: 40px;
+}

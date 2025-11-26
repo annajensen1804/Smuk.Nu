@@ -1,13 +1,19 @@
 import { useRoutes } from "react-router";
 import "./App.css";
 import Home from "./pages/Home";
+import BurgerMenu from "./components/burgerMenu/BurgerMenu";
 import Footer from "./components/footer/Footer";
+import Products from "./pages/Products";
 
 function App() {
-  const routes = useRoutes([{ path: "/", element: <Home /> }]);
+  const routes = useRoutes([
+    { path: "/", element: <Home /> },
+    { path: "/products", element: <Products /> },
+  ]);
 
   return (
     <>
+      <BurgerMenu />
       {routes}
       <Footer />
     </>
