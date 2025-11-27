@@ -15,8 +15,12 @@ const Question = ({question}) => {
             setOpen((prev) => !prev)
           } /* skifter mellem true og false, så vi kan åbne og lukke svar, når vi klikker på spørgsmål */
         >
-          <FaQuestion 
-          className={open ? styles.activeIcon : styles.defaultIcon}/>
+          <FaQuestion
+            className={open ? styles.activeIcon : styles.defaultIcon}
+          />
+          {/* hvis open er true, brug klass "activeIcon" (pink), ellers brug
+          klass "defaultIcon" (gray)*/}
+          
           <p>{question.question}</p>
         </div>
 
@@ -33,8 +37,6 @@ const Question = ({question}) => {
             </motion.p>
           )}
         </AnimatePresence>
-
-        {/* <p className={styles.answer}>{question.answer}</p> */}
       </article>
     );
 }
