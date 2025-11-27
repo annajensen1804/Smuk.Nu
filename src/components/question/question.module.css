@@ -1,0 +1,37 @@
+.question {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: start;
+    background-image: linear-gradient(to right, rgba(250, 150, 170, 1) 100%, transparent 0%);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 90% 1px;
+}
+
+.question:last-child {
+    margin-bottom: 20px;
+}
+
+.questionMark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.answer {
+    padding-left: 28px;
+    overflow: hidden;
+}
+
+.defaultIcon {
+    font-size: 30px;
+    color: rgba(217, 217, 217, 1);
+}
+
+.activeIcon {
+    font-size: 30px;
+    color: rgba(250, 150, 170, 1);
+}
