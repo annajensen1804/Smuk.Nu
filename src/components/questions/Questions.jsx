@@ -1,27 +1,14 @@
-import { useState, useEffect } from 'react'
 import styles from './questions.module.css'
 import Question from '../question/question'
+import { useLoaderData } from 'react-router-dom'
 
 const Questions = () => {
 
-const [questions, setQuestions] = useState([])
-const fetchQuestions = async () => {
-    try {
-        const response = await fetch("https://smuknu-vomg9.ondigitalocean.app/qas/")
-        const data = await response.json()
-            setQuestions(data.data)
-            console.log(data.data)
-    } catch (error) {
-        console.log(error)
-    }
-    }
-    useEffect(() => {
-        fetchQuestions();
-    }, []);
-    
+  const data = useLoaderData()
+      
     return (
       <section className={styles.questionsContainer}>
-        {questions.map((question) => (
+        {data.map((question) => (
           <Question question={question} key={question._id} />
         ))}
       </section>

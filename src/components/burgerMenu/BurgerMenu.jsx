@@ -1,5 +1,5 @@
 import styles from './burgerMenu.module.css'
-import { NavLink } from 'react-router'
+import { NavLink } from 'react-router-dom'
 
 const BurgerMenu = () => {
     return (

@@ -4,6 +4,7 @@ import Products from "../components/products/ProductList";
 import Reviews from "../components/reviews/Reviews";
 
 const Home = () => {
+
   return (
     <section>
       <PageHeader
