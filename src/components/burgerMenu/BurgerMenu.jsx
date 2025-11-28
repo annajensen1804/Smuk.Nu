@@ -8,6 +8,7 @@ const BurgerMenu = () => {
             <li><NavLink to="/">Forsiden</NavLink></li>
             <li><NavLink to="/products">Vores produkter</NavLink></li>
             <li><NavLink to="/faq">SPØRG OM SUNDHED</NavLink></li>  
+            <li><NavLink to="/memberPage">Bliv medlem</NavLink></li>  
         </ul>
       </nav>
     );
